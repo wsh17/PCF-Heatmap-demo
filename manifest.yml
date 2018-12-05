@@ -1,0 +1,7 @@
+---
+applications:
+- name: wsh-heatmap-pcfdemo
+  memory: 1024M 
+  instances: 2
+  host: pcfdemo-wsh-heatmap
+  path: ./target/pcfdemo.war
